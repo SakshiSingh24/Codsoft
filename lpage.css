@@ -1,0 +1,573 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Arial, sans-serif;
+
+
+}
+
+.container {
+    display: flex;
+    background-color: #2874f0;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+
+}
+
+#nav {
+
+    width: 80px;
+    position: relative;
+
+
+}
+
+.logo {
+
+    width: 100%;
+    margin: -17px 2px;
+    line-height: 1px;
+
+
+}
+
+.logobelow {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 2px;
+
+}
+
+.logobelow p {
+    font-style: italic;
+    color: white;
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+.logobelow span {
+    color: #ffe500;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 11px;
+
+}
+
+.logobelow img {
+    margin: 12px 4px;
+    height: 10px;
+    width: 8px;
+}
+
+.searchbox {
+
+    display: flex;
+    width: 308px;
+    margin: auto 12px;
+}
+
+.searchbox input {
+    padding: 0 16px;
+    border-radius: 2px 0 0 2px;
+    border: 0;
+    outline: 0 none;
+    font-size: 14px;
+    height: 36px;
+    width: 100%;
+
+}
+
+.searchbox button {
+    border: none;
+    background-color: #fff;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+
+
+}
+
+.searchbox i {
+    color: #2874f0;
+    font-size: 20px;
+}
+
+.loginbtn {
+
+    display: inline;
+}
+
+.loginbtn button {
+    background-color: #fff;
+    padding: 8px 40px;
+    border: 1px solid #dbdbdb;
+    color: #2874f0;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 2px;
+
+}
+
+.lasttext {
+    width: 125px;
+    margin: 0 50px;
+
+}
+
+.lasttext p {
+
+    color: #fff;
+    font-weight: bold;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+}
+
+.lasttext2 {
+    width: 80px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lasttext2 p {
+
+    color: #fff;
+    font-weight: bold;
+    font-family: Roboto, Arial, sans-serif;
+
+    font-size: 15px;
+}
+
+.lasttext2 span {
+    font-size: 20px;
+    color: #fff;
+    margin: 12px auto;
+}
+
+.lasttext3 {
+    display: flex;
+    width: 80px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.lasttext3 span {
+    font-size: 30px;
+    color: #fff;
+
+
+}
+
+.lasttext3 p {
+
+    color: #fff;
+    font-weight: bold;
+    font-family: Roboto, Arial, sans-serif;
+
+    font-size: 15px;
+}
+
+.sec {
+
+    display: flex;
+    height: 110px;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-bottom: 1px solid #ccc;
+
+
+}
+
+.card1 {
+    height: 112px;
+    width: 80px;
+    cursor: pointer;
+
+}
+
+.card1 img {
+    height: 64px;
+    width: 64px;
+
+
+}
+
+.card1 p {
+
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+
+}
+
+.card1 p:hover {
+    color: #2874f0;
+}
+
+.imageSliderContainer {
+    position: relative;
+    height: 280px;
+    background-color: #f1f3f6;
+    padding: 10px 0px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.imageSliderBtn {
+    position: absolute;
+    /* z-index: 10; */
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.imageSliderBtn button {
+    padding: 30px 12px;
+    background-color: white;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    font-size: 30px;
+    /* border-radius: 5px; */
+    z-index: 13;
+}
+
+
+.imageSliderList {
+    position: absolute;
+    /* top:15px; */
+    z-index: 11;
+    width: 99%;
+    height: 95%;
+    display: flex;
+    overflow: hidden;
+
+}
+
+.imageSliderItem {
+    min-width: 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.imageSliderItem img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.electronics {
+    width: 1395px;
+    height: 342px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.electronics-list {
+    width: 230px;
+    height: 341px;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90);
+    background-repeat: no-repeat;
+    background-position: 0px bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.electronics-list p {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 27px;
+    text-align: center;
+
+}
+
+.electronics-list button {
+    background-color: #2874f0;
+    color: #fff;
+    font-family: Roboto, Arial, sans-serif;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+.electronics-list2 {
+    width: 230px;
+    height: 341px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 30px;
+    white-space: 1px;
+
+}
+
+.electronics-list2 img {
+    height: 200px;
+    width: 200px;
+
+
+}
+
+.electronics-list2 img:hover {
+    height: 210px;
+    width: 210px;
+}
+
+.p1 {
+    text-align: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.p2 {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #388e3c;
+
+}
+
+.p3 {
+    text-align: center;
+    opacity: .6;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+
+}
+
+#leftbtn2 {
+    padding: 30px 12px;
+    background-color: white;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    font-size: 30px;
+    /* border-radius: 5px; */
+    z-index: 13;
+}
+
+.beauty {
+    width: 230px;
+    height: 341px;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90);
+    background-repeat: no-repeat;
+    background-position: 0px bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.beauty p {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 27px;
+    text-align: center;
+
+}
+
+.beauty button {
+    background-color: #2874f0;
+    color: #fff;
+    font-family: Roboto, Arial, sans-serif;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+.gift {
+    width: 230px;
+    height: 341px;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/82905b5b763b5da8.jpg?q=90);
+    background-repeat: no-repeat;
+    background-position: 0px bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.gift p {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 27px;
+    text-align: center;
+
+}
+
+.gift button {
+    background-color: #2874f0;
+    color: #fff;
+    font-family: Roboto, Arial, sans-serif;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+.fashion {
+    width: 230px;
+    height: 341px;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/ae3cf1d27ef0eabc.jpg?q=90);
+    background-repeat: no-repeat;
+    background-position: 0px bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.fashion p {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 27px;
+    text-align: center;
+
+}
+
+.fashion button {
+    background-color: #2874f0;
+    color: #fff;
+    font-family: Roboto, Arial, sans-serif;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+.last {
+    margin-top: 15px;
+    border-top: 1px solid #ccc;
+}
+
+.lastpara {
+    font-size: 13px;
+    opacity: .6;
+    font-family: Roboto, Arial, sans-serif;
+    margin: 24px 24px;
+}
+
+.f {
+    background-color: rgba(19, 20, 30, 0.984);
+    height: 350px;
+
+}
+
+.foot {
+
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    gap: 1rem;
+    height: 280px;
+    align-items: center;
+
+
+}
+
+.foot ul li label {
+    color: #616060;
+}
+
+.foot ul li {
+    color: #fff;
+    padding: 4px 4px;
+    list-style: none;
+    cursor: pointer;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 12px;
+
+}
+
+.vertical {
+    border-right: 1px solid #616060;
+    ;
+    height: 140px;
+    position: absolute;
+    left: 49%;
+
+}
+
+.foot label {
+    color: #616060;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 12px;
+}
+
+.foot p {
+    color: #fff;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 12px;
+
+}
+
+.foot1 {
+    border-top: 1px solid #616060;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 4px;
+
+}
+
+.foot1 img {
+    width: 42px;
+    height: 15px;
+
+
+}
+
+.foot1 p {
+    color: #fff;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 12px;
+}
+
+.foot2 {
+    margin: auto 6px;
+}
+
+.foot2 img {
+    width: 320px;
+    height: 15px;
+
+
+}
