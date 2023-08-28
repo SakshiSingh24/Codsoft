@@ -1,0 +1,385 @@
+.body{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+.navbar{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+ 
+    height: 40px;
+   
+   
+}
+.nav-list{
+    display: flex;
+  
+}
+
+.nav-list ul{
+    margin:auto 109px;
+    display: flex;
+  
+  
+}
+.nav-list ul li{
+    list-style: none;
+    cursor: pointer;
+    margin: auto 24px;
+    font-size: 15px;
+    font-family: Baloo Bhai ;
+}
+.nav-list ul li:hover{
+    color:  rgb(244, 153, 43);
+    font-size: 18px;
+}
+.nav-list p{
+    font-size: 27px;
+    font-weight: 500;
+    font-family:  Baloo Bhai ;
+}
+
+.aboutme{
+    display: flex;
+    flex-wrap: nowrap;
+    margin:20px 10px;
+    justify-content: center;
+    align-items: center;
+    height:382px;
+   
+ 
+   
+   /* background-image: url(./images/bg.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+   background-size: 850px auto; */
+}
+.aboutme::before{
+        content: "";
+      position: absolute;
+        top:0px;
+       
+     
+        height: 80%;
+        width:100%;
+        z-index: -1;
+        opacity: 0.7;
+    background-color: rgb(242, 226, 207);
+ 
+}
+.name{
+ 
+    line-height: 4px;
+   text-align: center;
+   margin:10px 10px;
+   /*background-image: url(./images/bg.png);
+   background-repeat: no-repeat;*/
+  
+    
+
+}
+.intro{
+    font-size: 40px;
+    font-family:  Baloo Bhai;
+    font-weight: 300;
+}
+.job{
+    font-size: 50px;
+    font-family:  Baloo Bhai ;
+    color:  rgb(244, 153, 43);
+    animation: job 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+}
+
+  @keyframes job {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
+.aboutme button{
+   
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: rgb(244, 153, 43);
+    padding: 3px 30px;
+    margin:2px 2px;
+    font-size: 20px;
+    font-family:  Baloo Bhai ;
+    cursor: pointer;
+
+}
+.pic{
+ width:400px;
+ height:400px;
+ 
+ margin:20px 10px;
+background-image: url(./images/yellow.png);
+background-repeat: no-repeat;
+background-size: 400px 400px;
+
+}
+
+ 
+
+.pic img{
+    width:350px;
+ height:350px; 
+ margin:29px 10px;
+ 
+}
+.edu-title{
+    text-align: center;
+    
+    margin:10px 10px;
+    font-family: Baloo Bhai;
+    font-size: 30px;
+    background-color:rgb(244, 153, 43);
+    border-radius: 5px;
+
+}
+.education{
+    display:flex;
+    justify-content: space-around;
+    align-item:center;
+    margin-top: 14px;
+    background-color:rgb(244, 153, 43);
+}
+.circle{
+    background:#fff;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin:15px auto;
+}
+.circle:hover{
+    background-color: bisque;
+    
+}
+.circle h3{
+    text-align: center;
+    margin-top:55px;
+    font-family: Baloo Bhai;
+    font-size:15px;
+    text-decoration: underline;
+}
+.circle p{
+    text-align: center;
+    font-family: Baloo Bhai;
+    font-size:12px;
+    margin:auto 10px;
+
+}
+.exper{
+    text-align: center;
+    
+    margin:10px 10px;
+    font-family: Baloo Bhai;
+    font-size: 30px;
+    
+}
+
+.experience{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.experience::before{
+    content: "";
+  position: absolute;
+   
+    height: 44%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+background-color: rgb(242, 226, 207);
+margin:30px 20px;
+
+}
+.circle1{
+    background:rgb(244, 153, 43);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin:20px auto;
+    text-align: center;
+    font-family: Baloo Bhai;
+    font-size: 20px;
+}
+.circle1 p{
+    text-align: center;
+    font-family: Baloo Bhai;
+    font-size: 20px;
+    margin-top: 35px;
+
+}
+/*.clg{
+    border:1px solid rgb(244, 153, 43);
+    border-radius: 10px;
+} */
+.clg h3{
+    text-align: center;
+   
+    font-family: Baloo Bhai;
+    font-size:18px;
+    text-decoration: underline;
+}
+.clg p{
+    text-align: center;
+    font-family: Baloo Bhai;
+    font-size:15px;
+    margin:auto 10px;
+
+}
+.sk{
+    margin-top:80px;
+    text-align: center;
+    font-family: Baloo Bhai;
+    font-size: 30px;
+    background-color:rgb(244, 153, 43);
+    border-radius: 5px;
+}
+.skill{
+  
+  
+   margin-top:20px;
+}
+
+.skill p{
+    font-family: Baloo Bhai;
+    font-size:15px;
+}
+.container {
+    margin:20px 20px;
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    border-radius: 10px;
+  
+  }
+  
+  .skills {
+    text-align: right; /* Right-align text */
+    padding-top: 2px; /* Add top padding */
+    padding-bottom: 2px; /* Add bottom padding */
+    color: white; /* White text color */
+    border-radius: 10px;
+    
+    
+  }
+  
+  .html {width: 90%; background-color: rgb(244, 153, 43);}
+  .css {width: 80%; background-color: rgb(244, 153, 43);}
+  .js {width: 65%; background-color: rgb(244, 153, 43);} 
+  .java {width: 60%; background-color: rgb(244, 153, 43);} 
+
+  .Contact-me{
+    background-color:  rgb(242, 226, 207);
+    display: grid;
+    grid-template-columns: auto auto auto;
+ 
+   
+  }
+  .sites{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .icon{
+    background-color:  rgb(244, 153, 43);
+    border:1px solid white;
+    width: 50px;
+    height:50px;
+    cursor: pointer;
+    transition: transform 2s;
+
+    
+   
+  }
+  .icon:hover{
+    transform: translate(0,-50px);
+    background-color: rgb(242, 226, 207);
+    border:1px solid rgb(244, 153, 43);
+
+  }
+  .icon i{
+    padding: 5px 5px;
+    font-size: 45px;
+    text-align: center;
+    color: #fff;
+  }
+  .vertical {
+    border-right: 2px solid   rgb(244, 153, 43);
+    height: 140px;
+    position: absolute;
+    left: 30%;
+    margin-top: 10px;
+
+}
+  .personal h3{
+    margin-top: 10px;
+    font-family: Baloo Bhai;
+    font-size: 30px;
+    text-align: center;
+  }
+  .personal p{
+   
+    font-family: Baloo Bhai;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .personal p:hover{
+    color: rgb(244, 153, 43);
+  }
+  .vertical2 {
+    border-right: 2px solid   rgb(244, 153, 43);
+    height: 140px;
+    position: absolute;
+    left: 55%;
+    margin-top: 10px;
+
+}
+ 
+  .Contact-me form{
+ 
+   align-items: center;
+    display:flex;
+    margin-top: 10px;
+    flex-direction: column;
+    font-size: 20px;
+    font-family:  Baloo Bhai ;
+
+  }
+  
+  
+ input[type=text]
+  {
+    background-color: transparent;
+    padding-top:9px;
+    padding-bottom: 9px;
+  
+    font-size: 12px;
+    color: black;
+   text-align: left;
+   width:300px;
+
+  }
+  input[type=submit]{
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: rgb(244, 153, 43);
+    padding-top:3px;
+    padding-bottom: 3px;
+    margin:5px 5px;
+    width:200px;
+    font-size: 20px;
+    font-family:  Baloo Bhai ;
+    cursor: pointer;
+
+  }
